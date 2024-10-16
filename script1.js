@@ -20,5 +20,5 @@ function calculateBMI() {
         category = 'Obese';
     }
 
-    document.getElementById('result').textContemt = `BMI Anda adalah ${bmi} (${category})`;
+    document.getElementById('result').textContent = `BMI Anda adalah ${bmi} (${category})`; // there are words written
 }

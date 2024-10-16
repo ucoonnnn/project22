@@ -22,7 +22,7 @@ h2 {
 
 label {
     display: block;
-    margin-top: 10pk;
+    margin-top: 10px; // errors in writing code
 }
 
 input {

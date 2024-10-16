@@ -1,6 +1,6 @@
 function calculateBMI() {
     const height = parseFloat(document.getElementById('height').value) / 100; // convert to meters
-    const weight = parseFloat(document.getElementById('height').value);
+    const weight = parseFloat(document.getElementById('weight').value);  // mistakes when writing captions in code
 
     if (isNaN(height) || isNaN(weight) || height <= 0 || weight <= 0) { //there are two errors when inputting height and weight data
         document.getElementById('result').textContent = 'Tolong masukkan nilai yang valid!';
